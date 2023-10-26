@@ -1,0 +1,97 @@
+.property-form form{
+    background-color: var(--white);
+    padding: 2rem;
+    box-shadow: var(--box-shodow);
+ }
+ 
+ .property-form form h3{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: var(--black);
+    text-transform: capitalize;
+ }
+ 
+ .property-form form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    justify-content: space-between;
+    align-items: flex-end;
+ }
+ 
+ .property-form form .box{
+    flex: 1 1 40rem;
+ }
+ 
+ .property-form form .box .input{
+    width: 100%;
+    border: var(--border);
+    margin: 1rem 0;
+    padding: 1.4rem;
+    color: var(--black);
+    font-size: 1.8rem;
+ }
+ 
+ .property-form form textarea{
+    height: 20rem;
+    resize: none;
+ }
+ 
+ .property-form form .box .input option[selected]{
+    background-color: var(--black);
+    color: var(--white);
+ }
+ 
+ .property-form form .box .image{
+    height: 30rem;
+    width: 100%;
+    object-fit: contain;
+    padding-top: 1rem;
+    object-position: left;
+ }
+ 
+ .property-form form .box p{
+    font-size: 1.6rem;
+    color: var(--light-color);
+    padding-top: 1rem;
+ }
+ 
+ .property-form form .box p span{
+    color: var(--main-color);
+ }
+ 
+ .property-form form .checkbox{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    margin: .5rem 0;
+    flex-wrap: wrap;
+ }
+ 
+ .property-form form .checkbox .box{
+    flex: 1 1 20rem;
+ }
+ 
+ .property-form form .checkbox .box input{
+    margin-right: 1rem;
+    cursor: pointer;
+ }
+.dashboard-form {
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+
+.dashboard-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.dashboard-form input,
+.dashboard-form select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
